@@ -1,0 +1,23 @@
+.grid-container {
+    display: grid;
+    gap: 50px 50px;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+
+.grid-item {
+    background-color: gray;
+    color: white;
+    border: none;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 15px;
+}
+button{
+background-color: gray;
+width: 100%;
+border: none;
+border-radius: 15px;
+color: white;
+}
