@@ -1,23 +1,36 @@
 .grid-container {
     display: grid;
     gap: 50px 50px;
-    grid-template-columns: auto auto auto;
-    padding: 10px;
+    grid-template-columns: auto auto;
+    padding: 0;
 }
 
 .grid-item {
-    background-color: gray;
+    background-color: rgba(255, 165, 0, 0);
     color: white;
     border: none;
-    padding: 20px;
-    font-size: 30px;
+    padding: 10px;
     text-align: center;
+    
+}
+.button {
+    display: inline-block;
     border-radius: 15px;
+    background-color: gray;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 5px;
+    width: 100%;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+} 
+    
+    .button:hover{
+        background-color: green;
+        transition: 0.5s;
 }
-button{
-background-color: gray;
-width: 100%;
-border: none;
-border-radius: 15px;
-color: white;
-}
+    
+    

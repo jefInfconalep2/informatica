@@ -1,0 +1,37 @@
+h1{
+    color: gray;
+}
+#bitacora{
+    margin: 2%;
+}
+#calendario{
+    margin: 2%;
+}
+#botones{
+    text-align: left;
+}
+
+.button {
+    display: inline-block;
+    border-radius: 15px;
+    background-color: gray;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 5px;
+    width: 10%;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+} 
+    
+.button:hover{
+    background-color: green;
+    transition: 0.5s;
+}
+#botonEliminar:hover{
+    background-color: red;
+    transition: 0.5s;
+}
+
